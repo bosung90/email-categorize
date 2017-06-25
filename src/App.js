@@ -5,6 +5,10 @@ import './App.css'
 import { getTextAnalytics } from './api'
 
 class App extends Component {
+  state = {
+    response: '',
+    isFetching: false,
+  }
   render() {
     return (
       <div className="App">
@@ -15,9 +19,11 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <button
-          onClick={() => {
-            getTextAnalytics({
+        <div>
+          <textarea
+            rows="10"
+            cols="50"
+            value={JSON.stringify({
               documents: [
                 {
                   language: 'en',
@@ -31,13 +37,31 @@ class App extends Component {
                     'a second email from eric. hello I am trying to fire you',
                 },
               ],
-            }).then(responseObj => {
-              console.log(responseObj)
+            })}
+            ref={textarea => (this.inputTextarea = textarea)}
+          />
+        </div>
+
+        <button
+          disabled={this.state.isFetching}
+          onClick={() => {
+            this.setState({ isFetching: true })
+            getTextAnalytics(
+              JSON.parse(this.inputTextarea.value)
+            ).then(responseObj => {
+              this.setState({
+                response: JSON.stringify(responseObj),
+                isFetching: false,
+              })
             })
           }}
         >
-          click here to fetch
+          {this.state.isFetching ? 'fetching...' : 'click here to fetch'}
         </button>
+        <div>
+          <textarea rows="10" cols="50" value={this.state.response} />
+        </div>
+
       </div>
     )
   }
