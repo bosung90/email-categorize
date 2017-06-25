@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import './Main.css'
 import { api, images } from '../../common'
-import IconLabel from './IconLabel'
+import SideNav from '../SideNav'
 
 export default class Main extends Component {
   inputTextarea: HTMLTextAreaElement
@@ -15,13 +15,14 @@ export default class Main extends Component {
       <div style={styles.container}>
         <div style={styles.header} />
         <div style={styles.body}>
-          <div style={styles.sideNav} />
+          <div style={styles.sideNav}>
+            <SideNav />
+          </div>
           <div style={styles.emailContainer}>
             <div style={styles.topNav} />
             <div style={styles.emails} />
           </div>
         </div>
-        <IconLabel image={images.inbox} label="Inbox" />
         <div>
           <textarea
             rows="10"
