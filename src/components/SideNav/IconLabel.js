@@ -21,6 +21,7 @@ const styles = {
   container: {
     display: 'flex',
     height: 31,
+    cursor: 'pointer',
   },
   iconContainer: {
     minWidth: 30,
