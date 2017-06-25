@@ -51,12 +51,23 @@ export default class Emails extends Component {
             }}
           >
             <img
-              style={{ marginLeft: 63, marginRight: 11, height: 31 }}
+              style={{
+                marginLeft: 63,
+                marginRight: 11,
+                height: 31,
+                cursor: 'pointer',
+              }}
               src={images.folderButton}
             />
-            <img style={{ height: 31 }} src={images.deleteButton} />
+            <img
+              style={{ height: 31, cursor: 'pointer' }}
+              src={images.deleteButton}
+            />
             <div style={{ flex: 1, display: 'flex' }} />
-            <img style={{ height: 31 }} src={images.arrowButtons} />
+            <img
+              style={{ height: 31, cursor: 'pointer' }}
+              src={images.arrowButtons}
+            />
           </div>
           <div
             style={{
@@ -72,7 +83,7 @@ export default class Emails extends Component {
             <span style={{ fontSize: 25, color: 'white' }}>
               {this.state.selectedContent.substr(0, 50) + '...'}
             </span>
-            <img src={images.star} />
+            <img style={{ cursor: 'pointer' }} src={images.star} />
           </div>
           <div style={{ padding: 56 }}>
             <span style={styles.contentStyle}>
