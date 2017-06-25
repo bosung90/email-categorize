@@ -8,6 +8,7 @@ import inbox from './icon/inbox.png'
 import openArrow from './icon/open_arrow.png'
 import logo from './logo.svg'
 import mail from './icon/mail.png'
+import search from './icon/search.png'
 
 import icon_red from './icon/icon_red.png'
 import icon_orange from './icon/icon_orange.png'
@@ -26,4 +27,5 @@ export {
   logo,
   categoryIcons,
   mail,
+  search,
 }
