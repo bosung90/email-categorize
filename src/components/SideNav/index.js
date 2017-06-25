@@ -2,11 +2,13 @@
 import React, { Component } from 'react'
 import { api, images } from '../../common'
 import IconLabel from './IconLabel'
+import ComposeButton from './ComposeButton'
 
 export default class SideNav extends Component {
   render() {
     return (
       <div style={styles.container}>
+        <ComposeButton />
         <span style={{ height: 31 }}>Messages</span>
         <IconLabel image={images.inbox} label="Inbox" />
         <IconLabel image={images.star} label="Starred" />

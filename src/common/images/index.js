@@ -7,6 +7,7 @@ import folder from './icon/folder.png'
 import inbox from './icon/inbox.png'
 import openArrow from './icon/open_arrow.png'
 import logo from './logo.svg'
+import mail from './icon/mail.png'
 
 import icon_red from './icon/icon_red.png'
 import icon_orange from './icon/icon_orange.png'
@@ -24,4 +25,5 @@ export {
   openArrow,
   logo,
   categoryIcons,
+  mail,
 }
