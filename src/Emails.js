@@ -1,17 +1,17 @@
-{
-    documents: [
+export const emailsObj = {
+  documents: [
     {
-        language: `en`,
-        id: `0`,
-        text: `         Harry,
+      language: `en`,
+      id: `0`,
+      text: `         Harry,
             Feel free to add or subtract as you see fit. Thanks.
             Don
             `,
     },
     {
-        language: `en`,
-        id: `1`,
-        text: `         thought you'd be interested to hear Chad's perspective here.....
+      language: `en`,
+      id: `1`,
+      text: `         thought you'd be interested to hear Chad's perspective here.....
             "Chad Muir" <chad@campuspipeline.com> on 11/29/2000 04:09:40 PM
             To: Jeff.Bartlett@enron.com
             cc:
@@ -77,9 +77,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `2`,
-        text: `         Kira-
+      language: `en`,
+      id: `2`,
+      text: `         Kira-
             I got your name (and email address) from Chad Muir and was hoping to arrange
             a time to briefly (and informally) talk to you about Yahoo's B2B business
             strategy and whether you think there might be any opporunities to discuss
@@ -106,16 +106,16 @@
             `,
     },
     {
-        language: `en`,
-        id: `3`,
-        text: `         Attached is a one page summary on Ross.  Look forward to speaking with you
+      language: `en`,
+      id: `3`,
+      text: `         Attached is a one page summary on Ross.  Look forward to speaking with you
             this afternoon at 4:15pm.  Thanks.  SR:-)
             `,
     },
     {
-        language: `en`,
-        id: `4`,
-        text: `         Attached is the Structured Note I received from Spring Hollis' office.
+      language: `en`,
+      id: `4`,
+      text: `         Attached is the Structured Note I received from Spring Hollis' office.
             From: Betty.Cantwell@weil.com
             Sent: Wednesday, November 29, 2000 4:14 PM
             To: scano@velaw.com
@@ -145,24 +145,24 @@
             `,
     },
     {
-        language: `en`,
-        id: `5`,
-        text: `         Sorry...Here we go again....(THIS time WITH the presentation attached....).
+      language: `en`,
+      id: `5`,
+      text: `         Sorry...Here we go again....(THIS time WITH the presentation attached....).
             Subject: LiteBytz Presentation Final Version
             Attached is the final version of the above.  Thanks.  SR:-)
             `,
     },
     {
-        language: `en`,
-        id: `6`,
-        text: `         Harry:
+      language: `en`,
+      id: `6`,
+      text: `         Harry:
             Let me know what you think.  Thanks.  SR:-)
             `,
     },
     {
-        language: `en`,
-        id: `7`,
-        text: `         Folks:
+      language: `en`,
+      id: `7`,
+      text: `         Folks:
             John and Sireesha have just pushed to staging a bunch of enhancements / bug
             fixes / new features.  Included in them are:
              1.  Configurable Questionnaire
@@ -191,30 +191,30 @@
             `,
     },
     {
-        language: `en`,
-        id: `8`,
-        text: `         Harry:
+      language: `en`,
+      id: `8`,
+      text: `         Harry:
             Let me know what you think.  Thanks.  SR:-)
             `,
     },
     {
-        language: `en`,
-        id: `9`,
-        text: `         I thought this updated comparison might be useful to you.
+      language: `en`,
+      id: `9`,
+      text: `         I thought this updated comparison might be useful to you.
             `,
     },
     {
-        language: `en`,
-        id: `10`,
-        text: `         Folks:
+      language: `en`,
+      id: `10`,
+      text: `         Folks:
             Attached is an updated testing script for your benefit.  Please feel free to
             add additional steps if I have missed anything to this list.  Thanks.  SR:-)
             `,
     },
     {
-        language: `en`,
-        id: `11`,
-        text: `         Harry:
+      language: `en`,
+      id: `11`,
+      text: `         Harry:
             Just give me or Steve Herrup a call and we'll get moving on the options.  My
             number is 212 469 5673   - if I am not around Steve is at 212 469 5955.
             Regards,
@@ -245,9 +245,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `12`,
-        text: `
+      language: `en`,
+      id: `12`,
+      text: `
             Subject: If Santa Answered his mail...
             Dear Santa
             I wud like a kool toy space ranjur fer Xmas. Iv ben a gud boy all yeer.
@@ -355,24 +355,24 @@
             `,
     },
     {
-        language: `en`,
-        id: `13`,
-        text: `         Hi Harry, thank you for sending us Linda Wolf's resume.    We are considering
+      language: `en`,
+      id: `13`,
+      text: `         Hi Harry, thank you for sending us Linda Wolf's resume.    We are considering
             her for our Administrative openings in Wholesale Services and one of our
             recruiters will be in contact with her.
             Thanks, Debi Vanwey
             `,
     },
     {
-        language: `en`,
-        id: `14`,
-        text: ` here's the 2000 deals summary sheet that I had put together last week.
+      language: `en`,
+      id: `14`,
+      text: ` here's the 2000 deals summary sheet that I had put together last week.
             `,
     },
     {
-        language: `en`,
-        id: `15`,
-        text: ` Harry,
+      language: `en`,
+      id: `15`,
+      text: ` Harry,
             Per our previous discussion, we would like to use DealBench for Project MI-3,
             which will appear on DealBench as Project Electra.  The site looks great, and
             we are excited to use it.
@@ -381,9 +381,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `16`,
-        text: `
+      language: `en`,
+      id: `16`,
+      text: `
             Subject: Birthday Party
             Good Morning,
             The party was Great!!!
@@ -397,9 +397,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `17`,
-        text: `
+      language: `en`,
+      id: `17`,
+      text: `
             Heather,
             Per our conversation, I am going to go ahead and process this order without
             the keyboards and/or mice.  The desktops, monitors and Palm Pilots come to
@@ -410,9 +410,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `18`,
-        text: ` Yolanda
+      language: `en`,
+      id: `18`,
+      text: ` Yolanda
             I will be attending the ski outing - I am not sure about my arrival and
             departure dates, but I did put tentative dates. Once I make my bookings I
             will update you on my final dates. I might stay an extra day, and will pick
@@ -421,18 +421,18 @@
             `,
     },
     {
-        language: `en`,
-        id: `19`,
-        text: `
+      language: `en`,
+      id: `19`,
+      text: `
             Mike
             Can you provide me the final budget for DealBench for 2001. Thanks
             Harry
             `,
     },
     {
-        language: `en`,
-        id: `20`,
-        text: `         EnronOptions Announcement
+      language: `en`,
+      id: `20`,
+      text: `         EnronOptions Announcement
             You can now access a web site that describes EnronOptions.
             The web site contains some highlights of the EnronOptions Program
             as well as some Frequently Asked Questions (FAQs).
@@ -447,9 +447,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `21`,
-        text: `         01.01.01 heralds the actual millenium. A unique date to be repeated only
+      language: `en`,
+      id: `21`,
+      text: `         01.01.01 heralds the actual millenium. A unique date to be repeated only
             after 1000 years !
             Here's hoping that the millenium showers health, wealth & hapiness in  all
             extremes on you & your family & makes the world a great place to  live.
@@ -458,9 +458,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `22`,
-        text: ` Harry,
+      language: `en`,
+      id: `22`,
+      text: ` Harry,
             Today's live auction for Northern Border Pipeline's procurement of line pipe
             was quite a success!  Here are some highlights:
             The auction lasted longer than the scheduled 15 minutes due to the automatic
@@ -472,9 +472,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `23`,
-        text: ` Suresh
+      language: `en`,
+      id: `23`,
+      text: ` Suresh
             For the next two weeks, I'd like you to focus on the following.
             1. Development frame-work and getting Zach upto speed
              Specs for Syndication report & testing & production date
@@ -497,18 +497,18 @@
             `,
     },
     {
-        language: `en`,
-        id: `24`,
-        text: ` Your eRequest's password is 6783
+      language: `en`,
+      id: `24`,
+      text: ` Your eRequest's password is 6783
             To use this password, go to the eRequest website and click on non-Corp logon.
             Put in your email address and the password above and click Log In, and you
             will log into eRequest.
             `,
     },
     {
-        language: `en`,
-        id: `25`,
-        text: ` The Managing Director PRC Committee met this week to elect individuals to
+      language: `en`,
+      id: `25`,
+      text: ` The Managing Director PRC Committee met this week to elect individuals to
             Managing Director and Vice President positions.  These employees are
             recognized as outstanding contributors to the organization, whose individual
             efforts have been instrumental in the continued success and growth of the=
@@ -617,9 +617,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `26`,
-        text: `         Hi,
+      language: `en`,
+      id: `26`,
+      text: `         Hi,
             Harry would like to meet with us to get buy-in for the development time-table
             of FileOpen deliverables for the dataroom.
             This is in the light of the impending signing-off on the design
@@ -631,15 +631,15 @@
             `,
     },
     {
-        language: `en`,
-        id: `27`,
-        text: `         Please review the attached T&E Policy for Enron Net Works.
+      language: `en`,
+      id: `27`,
+      text: `         Please review the attached T&E Policy for Enron Net Works.
             `,
     },
     {
-        language: `en`,
-        id: `28`,
-        text: `
+      language: `en`,
+      id: `28`,
+      text: `
             Good Day to you.
             I would like to introduce myself and my company.
             Kalahari Ltd is a UK based software company that has for the past 14
@@ -682,9 +682,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `29`,
-        text: ` Attached is a spreadsheet that shows all deals that have been
+      language: `en`,
+      id: `29`,
+      text: ` Attached is a spreadsheet that shows all deals that have been
             completed/in-process to date.  Please take a few minutes to see if anything
             from your domain has been omitted.  I will post this on our Deal Area so that
             you can update as appropriate.
@@ -693,9 +693,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `30`,
-        text: ` Dear Harry,
+      language: `en`,
+      id: `30`,
+      text: ` Dear Harry,
             It was really nice talking to you this week. I hope I could provide you with
             information sufficient for making the right decision. From my side, I once
             again want to highlight the fact that if I am given a chance, I will do all
@@ -708,9 +708,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `31`,
-        text: ` Hello all...
+      language: `en`,
+      id: `31`,
+      text: ` Hello all...
             Attached is the DealBench Development Methodology that we will be following
             to sure up the development effort.  Please look over it and let me know if
             you have any questions.
@@ -721,18 +721,18 @@
             `,
     },
     {
-        language: `en`,
-        id: `32`,
-        text: ` Dave
+      language: `en`,
+      id: `32`,
+      text: ` Dave
             Find enclosed the business plan and the valuation model for DealBench.  Feel
             free to call me with questions.
             Harry Arora
             `,
     },
     {
-        language: `en`,
-        id: `33`,
-        text: `
+      language: `en`,
+      id: `33`,
+      text: `
             I am sending you the EOL model on Greg Piper's request. The model reflects
             accurately the traded volumes on EOL for 2000. Projections for 2001- 2011
             were built based on feedback from traders, investment bank and research
@@ -747,9 +747,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `34`,
-        text: ` Dear Mr. Arora:
+      language: `en`,
+      id: `34`,
+      text: ` Dear Mr. Arora:
             I would like to take this opportunity to thank you for taking the time and
             effort to come to Owen and interview me for the Summer Associate Program at
             Enron. I am excited about the prospect of developing newer markets and
@@ -766,9 +766,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `35`,
-        text: ` Harry,
+      language: `en`,
+      id: `35`,
+      text: ` Harry,
             I enjoyed our interview today and hope to continue discussions with Enron
             about a summer internship.
             I couldn't resist sending you this link.  I don't know if you recall, but
@@ -796,15 +796,15 @@
             `,
     },
     {
-        language: `en`,
-        id: `36`,
-        text: ` FYI
+      language: `en`,
+      id: `36`,
+      text: ` FYI
             `,
     },
     {
-        language: `en`,
-        id: `37`,
-        text: `
+      language: `en`,
+      id: `37`,
+      text: `
             Wow !! Big brother is watching you... Thanks for your message. Actually, we
             are quite impressed by how smooth the whole process is. But I think that my
             colleague is talking to you at the moment... So far so good. We will see how
@@ -812,9 +812,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `38`,
-        text: `         This will be the final staffing report for year 2000.   It spans the last 3
+      language: `en`,
+      id: `38`,
+      text: `         This will be the final staffing report for year 2000.   It spans the last 3
             weeks of December.    Beginning in January 2001, reports will be sent
             monthly.   If you would like to be removed from the distribution list, or
             would like to add someone, please let me know.
@@ -822,9 +822,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `39`,
-        text: `
+      language: `en`,
+      id: `39`,
+      text: `
             Good evening ...one and all . It hardly seems possible that  we are another
             week on  already such has been the pace of activity here . The  ebb and flow
             in the Ali  market both in the spreads and outright price have kept  our
@@ -918,17 +918,17 @@
             `,
     },
     {
-        language: `en`,
-        id: `40`,
-        text: ` Folks:
+      language: `en`,
+      id: `40`,
+      text: ` Folks:
             Attached is an updated testing script for your benefit.  Please feel free to
             add additional steps if I have missed anything to this list.  Thanks.  SR:-)
             `,
     },
     {
-        language: `en`,
-        id: `41`,
-        text: `
+      language: `en`,
+      id: `41`,
+      text: `
             Nick
             Hope things are going well.
             In the next few days we need to do two things.
@@ -946,16 +946,16 @@
             `,
     },
     {
-        language: `en`,
-        id: `42`,
-        text: ` Here is the final 2001 Plan for Deal Bench, please call if you have any
+      language: `en`,
+      id: `42`,
+      text: ` Here is the final 2001 Plan for Deal Bench, please call if you have any
             questions.  Thanks Amy
             `,
     },
     {
-        language: `en`,
-        id: `43`,
-        text: `
+      language: `en`,
+      id: `43`,
+      text: `
             Dear Santa
             I wud like a kool toy space ranjur fer Xmas. Iv ben a gud boy all yeer.
             Yer Frend,ChUCk
@@ -1062,15 +1062,15 @@
             `,
     },
     {
-        language: `en`,
-        id: `44`,
-        text: ` here's the 2000 deals summary sheet that I had put together last week.
+      language: `en`,
+      id: `44`,
+      text: ` here's the 2000 deals summary sheet that I had put together last week.
             `,
     },
     {
-        language: `en`,
-        id: `45`,
-        text: ` Harry,
+      language: `en`,
+      id: `45`,
+      text: ` Harry,
             Per our previous discussion, we would like to use DealBench for Project MI-3,
             which will appear on DealBench as Project Electra.  The site looks great, and
             we are excited to use it.
@@ -1079,9 +1079,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `46`,
-        text: ` Hi Harry, thank you for sending us Linda Wolf's resume.    We are considering
+      language: `en`,
+      id: `46`,
+      text: ` Hi Harry, thank you for sending us Linda Wolf's resume.    We are considering
             her for our Administrative openings in Wholesale Services and one of our
             recruiters will be in contact with her.
             Thanks, Debi Vanwey
@@ -1089,9 +1089,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `47`,
-        text: `
+      language: `en`,
+      id: `47`,
+      text: `
             Good Morning,
             The party was Great!!!
             I thought you might want to use this one as a screen saver.
@@ -1101,9 +1101,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `48`,
-        text: `         EnronOptions Announcement
+      language: `en`,
+      id: `48`,
+      text: `         EnronOptions Announcement
             You can now access a web site that describes EnronOptions =01) Your Stock Option
             Program.  The web site contains some highlights of the EnronOptions Program
             as well as some Frequently Asked Questions (FAQs).
@@ -1118,9 +1118,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `49`,
-        text: `         01.01.01 heralds the actual millenium. A unique date to be repeated only
+      language: `en`,
+      id: `49`,
+      text: `         01.01.01 heralds the actual millenium. A unique date to be repeated only
             after 1000 years !
             Here's hoping that the millenium showers health, wealth & hapiness in  all
             extremes on you & your family & makes the world a great place to  live.
@@ -1129,9 +1129,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `50`,
-        text: ` Harry,
+      language: `en`,
+      id: `50`,
+      text: ` Harry,
             Today's live auction for Northern Border Pipeline's procurement of line pipe
             was quite a success!  Here are some highlights:
             The auction lasted longer than the scheduled 15 minutes due to the automatic
@@ -1143,9 +1143,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `51`,
-        text: ` Suresh
+      language: `en`,
+      id: `51`,
+      text: ` Suresh
             For the next two weeks, I'd like you to focus on the following.
             1. Development frame-work and getting Zach upto speed
              Specs for Syndication report & testing & production date
@@ -1168,18 +1168,18 @@
             `,
     },
     {
-        language: `en`,
-        id: `52`,
-        text: ` Your eRequest's password is 6783
+      language: `en`,
+      id: `52`,
+      text: ` Your eRequest's password is 6783
             To use this password, go to the eRequest website and click on non-Corp logon.
             Put in your email address and the password above and click Log In, and you
             will log into eRequest.
             `,
     },
     {
-        language: `en`,
-        id: `53`,
-        text: ` The Managing Director PRC Committee met this week to elect individuals to
+      language: `en`,
+      id: `53`,
+      text: ` The Managing Director PRC Committee met this week to elect individuals to
             Managing Director and Vice President positions.  These employees are=20
             recognized as outstanding contributors to the organization, whose individual
             efforts have been instrumental in the continued success and growth of the
@@ -1189,9 +1189,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `54`,
-        text: ` Hi,
+      language: `en`,
+      id: `54`,
+      text: ` Hi,
             Harry would like to meet with us to get buy-in for the development time-table
             of FileOpen deliverables for the dataroom.
             This is in the light of the impending signing-off on the design
@@ -1203,9 +1203,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `55`,
-        text: `
+      language: `en`,
+      id: `55`,
+      text: `
             I am sending you the EOL model on Greg Piper's request. The model reflects
             accurately the traded volumes on EOL for 2000. Projections for 2001- 2011
             were built based on feedback from traders, investment bank and research
@@ -1220,15 +1220,15 @@
             `,
     },
     {
-        language: `en`,
-        id: `56`,
-        text: ` FYI. Your task must be completed a week from now.
+      language: `en`,
+      id: `56`,
+      text: ` FYI. Your task must be completed a week from now.
             `,
     },
     {
-        language: `en`,
-        id: `57`,
-        text: `
+      language: `en`,
+      id: `57`,
+      text: `
             Good Day to you.
             I would like to introduce myself and my company.
             Kalahari Ltd is a UK based software company that has for the past 14
@@ -1255,15 +1255,15 @@
             `,
     },
     {
-        language: `en`,
-        id: `58`,
-        text: ` Please review the attached T&E Policy for Enron Net Works.
+      language: `en`,
+      id: `58`,
+      text: ` Please review the attached T&E Policy for Enron Net Works.
             `,
     },
     {
-        language: `en`,
-        id: `59`,
-        text: ` Dear Harry,
+      language: `en`,
+      id: `59`,
+      text: ` Dear Harry,
             It was really nice talking to you this week. I hope I could provide you with
             information sufficient for making the right decision. From my side, I once
             again want to highlight the fact that if I am given a chance, I will do all
@@ -1276,9 +1276,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `60`,
-        text: ` Attached is a spreadsheet that shows all deals that have been
+      language: `en`,
+      id: `60`,
+      text: ` Attached is a spreadsheet that shows all deals that have been
             completed/in-process to date.  Please take a few minutes to see if anything
             from your domain has been omitted.  I will post this on our Deal Area so that
             you can update as appropriate.
@@ -1287,9 +1287,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `61`,
-        text: ` Dear Mr. Arora:
+      language: `en`,
+      id: `61`,
+      text: ` Dear Mr. Arora:
             I would like to take this opportunity to thank you for taking the time and
             effort to come to Owen and interview me for the Summer Associate Program at
             Enron. I am excited about the prospect of developing newer markets and
@@ -1306,9 +1306,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `62`,
-        text: `         Harry,
+      language: `en`,
+      id: `62`,
+      text: `         Harry,
             I enjoyed our interview today and hope to continue discussions with Enron
             about a summer internship.
             I couldn't resist sending you this link.  I don't know if you recall, but
@@ -1336,9 +1336,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `63`,
-        text: ` Hello all...
+      language: `en`,
+      id: `63`,
+      text: ` Hello all...
             Attached is the DealBench Development Methodology that we will be following
             to sure up the development effort.  Please look over it and let me know if
             you have any questions.
@@ -1349,18 +1349,18 @@
             `,
     },
     {
-        language: `en`,
-        id: `64`,
-        text: ` Dave
+      language: `en`,
+      id: `64`,
+      text: ` Dave
             Find enclosed the business plan and the valuation model for DealBench.  Feel
             free to call me with questions.
             Harry Arora
             `,
     },
     {
-        language: `en`,
-        id: `65`,
-        text: `
+      language: `en`,
+      id: `65`,
+      text: `
             I just wanted to touch base with you to see how your DealBench experience
             is going.  I realize you may have some colleagues that are working with you
             that may not have been in our demo in November.  I'm happy to spend some
@@ -1372,9 +1372,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `66`,
-        text: ` This will be the final staffing report for year 2000.   It spans the last 3
+      language: `en`,
+      id: `66`,
+      text: ` This will be the final staffing report for year 2000.   It spans the last 3
             weeks of December.    Beginning in January 2001, reports will be sent
             monthly.   If you would like to be removed from the distribution list, or
             would like to add someone, please let me know.
@@ -1382,9 +1382,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `67`,
-        text: ` Dear Mr. Arora:
+      language: `en`,
+      id: `67`,
+      text: ` Dear Mr. Arora:
             I wanted to thank you for taking the time to interview me this past
             Wednesday.  I enjoyed meeting you and other representatives of the company
             and left our interview with a much greater understanding of what drives
@@ -1419,9 +1419,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `68`,
-        text: ' Here is my summary of our second round summer interviews.  Top 3 candidates
+      language: `en`,
+      id: `68`,
+      text: ` Here is my summary of our second round summer interviews.  Top 3 candidates
             below.
             1. Craig -  Well rounded, Military background, excellent leadership
             experience (aircraft carrier pilot), did not have a finance background, but
@@ -1447,19 +1447,19 @@
             Victor, then consider a 3rd offer to Andrew, recognizing we would likely get
             a maximum of 2/3.
             Lee Jackson
-            ',
+            `,
     },
     {
-        language: `en`,
-        id: `69`,
-        text: `         Remember our discussion yesterday?
+      language: `en`,
+      id: `69`,
+      text: `         Remember our discussion yesterday?
             Jens
             `,
     },
     {
-        language: `en`,
-        id: `70`,
-        text: ` Looks like EES has pretty much decided to use us for this RFQ (see the Word
+      language: `en`,
+      id: `70`,
+      text: ` Looks like EES has pretty much decided to use us for this RFQ (see the Word
             doc attached below) -- remember that we have a meeting scheduled with EES on
             Monday to discuss a "realtionship" and pricing.  Let's make sure before our
             meeting that we are all in agreement as to the pricing approach we will take
@@ -1468,9 +1468,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `71`,
-        text: `
+      language: `en`,
+      id: `71`,
+      text: `
             Here is McKinsey's work.  Broad overview only, with no specific analysis of
             grains, meats or softs.  Priorities here are grains, then meats, and
             separately
@@ -1485,9 +1485,9 @@
             `,
     },
     {
-        language: `en`,
-        id: `72`,
-        text: ` Dear Mr. Arora:
+      language: `en`,
+      id: `72`,
+      text: ` Dear Mr. Arora:
             Hope this mail finds you in the best of health and cheer. I am sorry to know
             that I have not been selected for the Enron Summer Associate Program and
             would greatly appreciate any feedback that you can offer me with regards to
@@ -1503,5 +1503,5 @@
             Max
             `,
     },
-    ],
+  ],
 }
