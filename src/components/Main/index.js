@@ -15,8 +15,19 @@ export default class Main extends Component {
     isFetching: false,
     responseObj: {},
   }
+  componentDidMount() {
+    this.setState({ isFetching: true })
+    api
+      .getTextAnalytics(JSON.parse(this.inputTextarea.value))
+      .then(responseObj => {
+        this.setState({
+          response: JSON.stringify(responseObj),
+          responseObj,
+          isFetching: false,
+        })
+      })
+  }
   render() {
-    const { getTextAnalytics } = api
     return (
       <div style={styles.container}>
         <div style={styles.header}>
@@ -48,15 +59,15 @@ export default class Main extends Component {
           disabled={this.state.isFetching}
           onClick={() => {
             this.setState({ isFetching: true })
-            getTextAnalytics(
-              JSON.parse(this.inputTextarea.value)
-            ).then(responseObj => {
-              this.setState({
-                response: JSON.stringify(responseObj),
-                responseObj,
-                isFetching: false,
+            api
+              .getTextAnalytics(JSON.parse(this.inputTextarea.value))
+              .then(responseObj => {
+                this.setState({
+                  response: JSON.stringify(responseObj),
+                  responseObj,
+                  isFetching: false,
+                })
               })
-            })
           }}
         >
           {this.state.isFetching ? 'fetching...' : 'click here to fetch'}
