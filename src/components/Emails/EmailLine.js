@@ -2,14 +2,19 @@
 import React, { Component } from 'react'
 import { api, images } from '../../common'
 
+type Props = {
+  content: string,
+}
+
 export default class EmailLine extends Component {
+  props: Props
   render() {
     return (
       <div style={styles.container}>
         <input type="checkbox" />
         <div style={styles.content}>
           <span style={{ color: '#8E8E8E' }}>
-            We are opening up ProtonMail to everybody!{' '}
+            {this.props.content.substring(0, 150)}
           </span>
         </div>
         <span style={{ paddingTop: 5, paddingRight: 13, color: '#8E8E8E' }}>
