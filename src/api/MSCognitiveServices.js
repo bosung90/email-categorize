@@ -17,13 +17,37 @@ const FETCH_OPTION = {
 
 type Documents = [
   {
-    'language': 'string',
-    'id': 'string',
-    'text': 'string',
+    language: string,
+    id: string,
+    text: string,
   },
 ]
 
-export const getTextAnalytics = async (documents: Documents) => {
+type TextAnalyticsResponse = {
+  [string]: {
+    keyPhrases: [string],
+    id: string,
+    score: number,
+  },
+}
+
+type SentimentResponse = {
+  [string]: {
+    id: string,
+    score: number,
+  },
+}
+
+type KeyPhrasesResponse = {
+  [string]: {
+    keyPhrases: [string],
+    id: string,
+  },
+}
+
+export const getTextAnalytics = async (
+  documents: Documents
+): Promise<TextAnalyticsResponse> => {
   const keyPhrasesResponse = await getKeyPhrases(documents)
   const sentimentResponse = await getSentiment(documents)
 
@@ -38,7 +62,9 @@ export const getTextAnalytics = async (documents: Documents) => {
   return returnObj
 }
 
-export const getKeyPhrases = async (documents: Documents) => {
+export const getKeyPhrases = async (
+  documents: Documents
+): Promise<KeyPhrasesResponse> => {
   const response = await fetch(URL_KEYPHRASE, {
     method: 'POST',
     headers: HEADERS,
@@ -56,7 +82,9 @@ export const getKeyPhrases = async (documents: Documents) => {
   }
 }
 
-export const getSentiment = async (documents: Documents) => {
+export const getSentiment = async (
+  documents: Documents
+): Promise<SentimentResponse> => {
   const response = await fetch(URL_SENTIMENT, {
     method: 'POST',
     headers: HEADERS,
