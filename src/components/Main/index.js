@@ -6,6 +6,7 @@ import SideNav from '../SideNav'
 import Header from '../Header'
 import TopNav from '../TopNav'
 import Emails from '../Emails'
+import { emailsObj } from '../../Emails'
 
 export default class Main extends Component {
   inputTextarea: HTMLTextAreaElement
@@ -14,6 +15,7 @@ export default class Main extends Component {
     isFetching: false,
   }
   render() {
+    const { getTextAnalytics } = api
     return (
       <div style={styles.container}>
         <div style={styles.header}>
@@ -36,21 +38,7 @@ export default class Main extends Component {
           <textarea
             rows="10"
             cols="50"
-            defaultValue={JSON.stringify({
-              documents: [
-                {
-                  language: 'en',
-                  id: '123',
-                  text: 'a brown fox jumps over the fence',
-                },
-                {
-                  language: 'en',
-                  id: '124',
-                  text:
-                    'a second email from eric. hello I am trying to fire you',
-                },
-              ],
-            })}
+            defaultValue={JSON.stringify(emailsObj)}
             ref={textarea => (this.inputTextarea = textarea)}
           />
         </div>
@@ -59,14 +47,14 @@ export default class Main extends Component {
           disabled={this.state.isFetching}
           onClick={() => {
             this.setState({ isFetching: true })
-            api
-              .getTextAnalytics(JSON.parse(this.inputTextarea.value))
-              .then(responseObj => {
-                this.setState({
-                  response: JSON.stringify(responseObj),
-                  isFetching: false,
-                })
+            getTextAnalytics(
+              JSON.parse(this.inputTextarea.value)
+            ).then(responseObj => {
+              this.setState({
+                response: JSON.stringify(responseObj),
+                isFetching: false,
               })
+            })
           }}
         >
           {this.state.isFetching ? 'fetching...' : 'click here to fetch'}
