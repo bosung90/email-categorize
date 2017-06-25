@@ -1,9 +1,8 @@
 // @flow
 import React, { Component } from 'react'
-import logo from './logo.svg'
 import './Main.css'
-
-import { api } from '../../common'
+import { api, images } from '../../common'
+import IconLabel from './IconLabel'
 
 export default class Main extends Component {
   inputTextarea: HTMLTextAreaElement
@@ -13,19 +12,21 @@ export default class Main extends Component {
   }
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome hello eric</h2>
+      <div style={styles.container}>
+        <div style={styles.header} />
+        <div style={styles.body}>
+          <div style={styles.sideNav} />
+          <div style={styles.emailContainer}>
+            <div style={styles.topNav} />
+            <div style={styles.emails} />
+          </div>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <IconLabel image={images.inbox} label="Inbox" />
         <div>
           <textarea
             rows="10"
             cols="50"
-            value={JSON.stringify({
+            defaultValue={JSON.stringify({
               documents: [
                 {
                   language: 'en',
@@ -67,4 +68,35 @@ export default class Main extends Component {
       </div>
     )
   }
+}
+
+const styles = {
+  container: {
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
+    minHeight: 1000,
+  },
+  header: {
+    height: 60,
+    backgroundColor: '#B4B3B6',
+  },
+  body: { display: 'flex', flex: 1 },
+  sideNav: {
+    backgroundColor: '#F9F9F9',
+    width: 190,
+  },
+  emailContainer: {
+    display: 'flex',
+    flex: 1,
+    backgroundColor: 'grey',
+    flexDirection: 'column',
+  },
+  topNav: { height: 55, backgroundColor: '#F4F2F2' },
+  emails: {
+    display: 'flex',
+    flex: 1,
+    backgroundColor: '#F4F2F2',
+    flexDirection: 'column',
+  },
 }

@@ -6,5 +6,6 @@ import document from './icon/document.png'
 import folder from './icon/folder.png'
 import inbox from './icon/inbox.png'
 import openArrow from './icon/open_arrow.png'
+import logo from './logo.svg'
 
-export { star, bin, direction, document, folder, inbox, openArrow }
+export { star, bin, direction, document, folder, inbox, openArrow, logo }
