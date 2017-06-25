@@ -84,7 +84,7 @@ const styles = {
   },
   body: { display: 'flex', flex: 1 },
   sideNav: {
-    backgroundColor: '#F9F9F9',
+    display: 'flex',
     width: 190,
   },
   emailContainer: {
