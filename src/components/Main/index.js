@@ -1,8 +1,11 @@
 // @flow
 import React, { Component } from 'react'
 import './Main.css'
-import { api, images } from '../../common'
+import { api } from '../../common'
 import SideNav from '../SideNav'
+import Header from '../Header'
+import TopNav from '../TopNav'
+import Emails from '../Emails'
 
 export default class Main extends Component {
   inputTextarea: HTMLTextAreaElement
@@ -13,14 +16,20 @@ export default class Main extends Component {
   render() {
     return (
       <div style={styles.container}>
-        <div style={styles.header} />
+        <div style={styles.header}>
+          <Header />
+        </div>
         <div style={styles.body}>
           <div style={styles.sideNav}>
             <SideNav />
           </div>
           <div style={styles.emailContainer}>
-            <div style={styles.topNav} />
-            <div style={styles.emails} />
+            <div style={styles.topNav}>
+              <TopNav />
+            </div>
+            <div style={styles.emails}>
+              <Emails />
+            </div>
           </div>
         </div>
         <div>
@@ -79,8 +88,9 @@ const styles = {
     minHeight: 1000,
   },
   header: {
+    display: 'flex',
     height: 60,
-    backgroundColor: '#B4B3B6',
+    backgroundColor: 'red',
   },
   body: { display: 'flex', flex: 1 },
   sideNav: {
@@ -90,14 +100,14 @@ const styles = {
   emailContainer: {
     display: 'flex',
     flex: 1,
-    backgroundColor: 'grey',
+    backgroundColor: 'red',
     flexDirection: 'column',
   },
-  topNav: { height: 55, backgroundColor: '#F4F2F2' },
+  topNav: { display: 'flex', height: 55, backgroundColor: 'red' },
   emails: {
     display: 'flex',
     flex: 1,
-    backgroundColor: '#F4F2F2',
+    backgroundColor: 'red',
     flexDirection: 'column',
   },
 }
