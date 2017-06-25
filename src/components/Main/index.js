@@ -13,6 +13,7 @@ export default class Main extends Component {
   state = {
     response: '',
     isFetching: false,
+    responseObj: {},
   }
   render() {
     const { getTextAnalytics } = api
@@ -26,11 +27,11 @@ export default class Main extends Component {
             <SideNav />
           </div>
           <div style={styles.emailContainer}>
-            <div style={styles.topNav}>
+            {/* <div style={styles.topNav}>
               <TopNav />
-            </div>
+            </div> */}
             <div style={styles.emails}>
-              <Emails />
+              <Emails responseObj={this.state.responseObj} />
             </div>
           </div>
         </div>
@@ -52,6 +53,7 @@ export default class Main extends Component {
             ).then(responseObj => {
               this.setState({
                 response: JSON.stringify(responseObj),
+                responseObj,
                 isFetching: false,
               })
             })

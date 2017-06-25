@@ -27,10 +27,12 @@ const styles = {
     width: 150,
     height: 35,
     borderRadius: 3,
-    backgroundColor: '#BFBFBF',
+    backgroundColor: '#EC5589',
     alignItems: 'center',
     cursor: 'pointer',
     paddingLeft: 15,
+    marginLeft: 15,
+    marginBottom: 15,
   },
   label: {
     color: 'white',

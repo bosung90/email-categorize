@@ -12,7 +12,7 @@ export default (props: Props) => {
       <div style={styles.iconContainer}>
         <img style={styles.iconImage} src={props.image} />
       </div>
-      <span>{props.label}</span>
+      <span style={{ color: 'white', fontWeight: 300 }}>{props.label}</span>
     </div>
   )
 }

@@ -11,7 +11,10 @@ export default class SideNav extends Component {
       <div style={styles.container}>
         <ComposeButton />
         <div style={styles.paddingL}>
-          <span style={{ height: 31 }}>Messages</span>
+          <div style={{ marginBottom: 15 }}>
+            <span style={{ height: 31, color: 'white' }}>Messages</span>
+
+          </div>
           <IconLabel image={images.inbox} label="Inbox" />
           <IconLabel image={images.star} label="Starred" />
           <IconLabel image={images.document} label="Drafts" />
@@ -19,7 +22,10 @@ export default class SideNav extends Component {
         </div>
         <HorizontalLine />
         <div style={styles.paddingL}>
-          <span style={{ height: 31 }}>Category</span>
+          <div style={{ marginTop: 15, marginBottom: 15 }}>
+
+            <span style={{ height: 31, color: 'white' }}>Category</span>
+          </div>
           <IconLabel image={images.categoryIcons[0]} label="Category 1" />
           <IconLabel image={images.categoryIcons[1]} label="Category 2" />
           <IconLabel image={images.categoryIcons[2]} label="Category 3" />
@@ -34,7 +40,7 @@ const styles = {
     display: 'flex',
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: '#F9F9F9',
+    backgroundColor: '#4A47A2',
     paddingTop: 14,
   },
   paddingL: {

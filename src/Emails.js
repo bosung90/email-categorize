@@ -1,3 +1,6 @@
+// @flow
+import { api } from './common'
+
 export const emailsObj = {
   documents: [
     {
@@ -1505,3 +1508,5 @@ export const emailsObj = {
     },
   ],
 }
+// api.getTextAnalytics(emailsObj.documents)
+// api.getTextAnalytics(emailsObj.documents)

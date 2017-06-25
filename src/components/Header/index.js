@@ -4,7 +4,11 @@ import { api, images } from '../../common'
 
 export default class Header extends Component {
   render() {
-    return <div style={styles.container} />
+    return (
+      <div style={styles.container}>
+        <img style={{ height: 23 }} src={images.logo} />
+      </div>
+    )
   }
 }
 
@@ -12,6 +16,8 @@ const styles = {
   container: {
     display: 'flex',
     flex: 1,
-    backgroundColor: '#B4B3B6',
+    backgroundColor: '#3B3B3B',
+    paddingLeft: 51,
+    alignItems: 'center',
   },
 }

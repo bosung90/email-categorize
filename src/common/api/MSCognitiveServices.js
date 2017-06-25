@@ -18,7 +18,7 @@ type Documents = [
   },
 ]
 
-type TextAnalyticsResponse = {
+export type TextAnalyticsResponse = {
   [string]: {
     keyPhrases: [string],
     id: string,
