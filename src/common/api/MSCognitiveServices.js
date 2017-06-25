@@ -1,6 +1,5 @@
 // @flow
 const API_KEY = '2da4957d65a04a6db4318ccf05b6fb7f'
-const LANGUAGE = 'en'
 const URL_KEYPHRASE =
   'https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyPhrases'
 const URL_SENTIMENT =
@@ -9,10 +8,6 @@ const URL_SENTIMENT =
 const HEADERS = {
   'Content-Type': 'application/json',
   'Ocp-Apim-Subscription-Key': API_KEY,
-}
-const FETCH_OPTION = {
-  method: 'POST',
-  headers: HEADERS,
 }
 
 type Documents = [
@@ -73,7 +68,7 @@ export const getKeyPhrases = async (
 
   const responseObj = await response.json()
   {
-    const { documents, errors } = responseObj
+    const { documents } = responseObj
     const documentsObj = documents.reduce((prev, cur) => {
       prev[cur.id] = cur
       return prev
@@ -93,7 +88,7 @@ export const getSentiment = async (
 
   const responseObj = await response.json()
   {
-    const { documents, errors } = responseObj
+    const { documents } = responseObj
     const documentsObj = documents.reduce((prev, cur) => {
       prev[cur.id] = cur
       return prev
